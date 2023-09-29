@@ -8,5 +8,5 @@ categoriesList.forEach(category => {
   const subcategoriesList = category.querySelectorAll('ul > li');
   
   console.log(`Category: ${categoryName}`);
-  console.log(`Elements: "${categoryName}": ${subcategoriesList.length}`);
+  console.log(`Elements: ${subcategoriesList.length}`);
 });
